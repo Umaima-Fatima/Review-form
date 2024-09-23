@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.reviewform {
+  align-items: center;
+  text-align: center;
+}
+
+.aside .logo {
+  padding-left: 20px;
+  position: absolute;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.aside .logo a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.aside .logo a span {
+  font-family: "clicker Script", cursive;
+  font-size: 40px;
+}
+
+.aside .logo a::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  border-bottom: 5px solid red;
+  border-left: 5px solid blue;
+  bottom: 0;
+  left: 0;
+}
+
+.aside .logo a::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  border-top: 5px solid red;
+  border-right: 5px solid blue;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.section {
+  margin: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  margin: 25px;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h4 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.symbol a {
+  justify-content: end;
+  display: flex;
+  margin-right: 23px;
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .symbol {
+    align-items: baseline;
+  }
+}

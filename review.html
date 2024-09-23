@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Step 03</title>
+    <link rel="stylesheet" href="CSS/form.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <table class="tb-head" border="0">
+        <tr class="name">
+          <th bgcolor="lightgreen">Step1: Account</th>
+          <th bgcolor="lightgreen">Step2: Personal Details</th>
+          <th bgcolor="skyblue">Step3: Your Review</th>
+        </tr>
+      </table>
+      <div class="review-form">
+        <label for="text"> How did you hear about us? </label>
+        <select name="select one">
+          <option value="Culture's Good">Culture's Good</option>
+          <option value="Amazing Institute">Amazing Institute</option>
+          <option value="Study's Good">Study's Good</option>
+        </select>
+        <br /><br />
+        Would you visit again?
+        <br />
+        <input type="radio" name="select" value="yes" checked="checked" /> yes
+        <input type="radio" name="select" value="no" /> no
+        <input type="radio" name="select" value="Maybe" /> Maybe <br /><br />
+        <div class="row">
+          <div class="form-item col-12 padd-15">
+            <div class="form-group">
+              <textarea
+                name="Message"
+                rows="6"
+                class="form-control"
+                id=""
+                placeholder="Comments"
+                autocomplete="off"
+                required
+              ></textarea>
+            </div>
+            <br />
+            Documents:<br />
+
+            <input type="file" id="myFile" name="filename" />
+
+            <br /><br />
+            <label>
+              <input type="checkbox" name="subscribe" checked="checked" />
+              Sign me up for email updates
+            </label>
+
+            <div class="btn-class p-2">
+              <a href="personal.html">
+                <button class="btn btn-success">Back</button>
+              </a>
+
+              <a href="# ">
+                <button class="btn btn-danger">Submit</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
